@@ -1,0 +1,24 @@
+{
+  "name": "foodmeasureback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuffTaco/hack4earth2023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuffTaco/hack4earth2023/issues"
+  },
+  "homepage": "https://github.com/BuffTaco/hack4earth2023#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
