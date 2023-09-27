@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
+import services from './services/service'
 
 const calc = () => {
+  
   return (
     <>
       <h1>placeholder</h1>
@@ -37,6 +39,17 @@ const rec = () => {
 function App() {
   
   const [show, setShow] = useState("about")
+  const [key, setKey] = useState("")
+
+  const hook = () => {
+    services.retrieve()
+    .then(response => setKey(response))
+    .catch(error => {console.log(error)})
+  }
+  useEffect(hook, [])
+  
+  
+  
   
     return (
       <>
