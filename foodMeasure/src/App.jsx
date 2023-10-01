@@ -150,9 +150,9 @@ const About = () => {
       <h1> FOOD TRACKER </h1>
       <div className="card">
         <h2>What is this Website?</h2>
-        <p>This website assists you in having a healthy and affordable diet by helping you maximize the nutritional value of your food while paying for the least amount of money possible. This website also allows you to plan and compare your diet plan to one that is healthy and learn about the most nutritious and affordable foods!</p>
+        <p>This website assists you in having a healthy and balanced diet by helping you maximize the nutritional value at just the tip of your fingers! This website also allows you to plan and compare your diet plan to one that is healthy and learn about the most nutritious and mouth-watering foods!</p>
         <h2>Our Goals</h2>
-        <p>We aim for you to have the option to only buy what food you need for as little money as possible. On a grander scale, not only does this help individual people, but it also addresses issues such as sustainability, poverty, hunger, and inequality. This opens the door to reducing food waste, starvation from poverty, and wealth inequalities. </p>
+        <p>We aim to increase good health and wellbeing and reduce hunger and poverty by providing a accessible source for people to plan out a balanced daily diet while also learning about the foods they are eating. By promoting healthy eating habits, we hope to decrease obesity and heart disease throughout the world. </p>
         <h2>More Resources to Consult</h2>
         <p>There are plenty of free and trustworthy websites you can also consult. The <a href="https://www.cdc.gov/"> CDC</a>’s website is a great place to learn about health and personal wellbeing. To gather more information about food nutrition, check out <a href="https://fdc.nal.usda.gov/"> USDA’s FDC</a> website, <a href="https://www.healthline.com/"> Healthline</a>, and <a href="https://health.gov/myhealthfinder"> HHS’ and OASH’s</a> website.  </p>
 

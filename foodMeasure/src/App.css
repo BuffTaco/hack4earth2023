@@ -97,6 +97,9 @@ p {
   white-space: nowrap;
   list-style-type: square;
 }
+a:link, a:visited {
+  color: blue;
+}
 
 
 
