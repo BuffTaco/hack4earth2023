@@ -1,4 +1,4 @@
-.segregation {
+.segregation, .portionsAndPlan {
   
   display:flex;
   justify-content: space-evenly
@@ -14,6 +14,19 @@
 html {
   background-color: rgb(214, 236, 208);
 }
+input {
+  border: 1px solid rgb(100, 64, 23);
+  background-color: rgb(255, 245, 240);
+  height: 10%;
+  width: 280px;
+ 
+}
+.searchButton {
+  height: 11%;
+  background-color: rgb(133, 167, 114);
+  border: 1px solid rgb(100, 64, 23);
+}
+
 body {
   margin: 0px;
   font-family: "Georgia", sans-serif;
@@ -40,6 +53,7 @@ li {
 ul> button {
   color: rgb(255, 255, 255);
   font-family: "Georgia", sans-serif;
+  font-weight: bold;
   background: transparent;
   border-right: none;
   text-decoration: none;
@@ -56,7 +70,7 @@ ul> button {
   left: -75%;
   top: -10%;
   z-index: -1;
-  /*background-image: url(/leaf.png);*/
+  background-image: url(/leaf.png);
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.7;
@@ -71,7 +85,18 @@ p {
   line-height: 2;
   max-width: 80%;
 }
-
+.dailyRecommended, .dailyPlanned {
+  margin: auto;
+  width: 100%;
+}
+.planList {
+  padding-right: 10%;
+  margin-left: -20%;
+}
+.planList li {
+  white-space: nowrap;
+  list-style-type: square;
+}
 
 
 
